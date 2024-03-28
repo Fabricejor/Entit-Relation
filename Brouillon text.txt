@@ -1,0 +1,10 @@
+CHECKPOINT MODELES ENTITE ASSOSIATION
+
+I-LES ENTITES et leur attributs
+ GYMNASES: Nom,Adresse,Numero
+MEMBRES: Id,Nom, prénom, Adresse, date de naissance,Sexe
+SESSION:TypeSport , Horraire,nbrePlace
+ENTRAINEUR:Nom,Prénom,Age et Spécialité
+II- LESRELATIONS
+le proprio * gymnases
+gymnase 1,* => membres      membres 1,1=> gymnase
